@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "liardice:build:production"
+              "buildTarget": "liardice:build:production"
             },
             "development": {
-              "browserTarget": "liardice:build:development"
+              "buildTarget": "liardice:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "liardice:build"
+            "buildTarget": "liardice:build"
           }
         },
         "test": {
